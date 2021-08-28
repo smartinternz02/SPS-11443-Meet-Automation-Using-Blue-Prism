@@ -1,0 +1,389 @@
+﻿<process name="Zoom automation(launch)" version="1.0" bpversion="7.0.0.40580" narrative="" byrefcollection="true" type="object" runmode="Exclusive" preferredid="80618811-8152-40ff-abbe-f7df93e78109">
+  <appdef>
+    <element name="Zoom Automation(launch)">
+      <id>9dc0b478-4ff2-475d-a58c-01665e1d9e33</id>
+      <element name="Join the meeting button">
+        <id>9481d522-c880-4b00-a5cc-4eff7ffe0999</id>
+        <type>UIAButton</type>
+        <basetype>UIAButton</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="uX">
+            <ProcessValue datatype="number" value="603" />
+          </attribute>
+          <attribute name="uY">
+            <ProcessValue datatype="number" value="361" />
+          </attribute>
+          <attribute name="uWidth">
+            <ProcessValue datatype="number" value="200" />
+          </attribute>
+          <attribute name="uHeight">
+            <ProcessValue datatype="number" value="32" />
+          </attribute>
+          <attribute name="uClassName" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uAutomationId" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uControlType" inuse="True">
+            <ProcessValue datatype="text" value="Button" />
+          </attribute>
+          <attribute name="uLocalizedControlType">
+            <ProcessValue datatype="text" value="button" />
+          </attribute>
+          <attribute name="uIsPassword">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uIsRequiredForForm">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uName" inuse="True">
+            <ProcessValue datatype="text" value="Join a Meeting" />
+          </attribute>
+          <attribute name="uOrientation">
+            <ProcessValue datatype="text" value="None" />
+          </attribute>
+          <attribute name="uItemStatus">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uItemType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uOffscreen">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="uTopLevelWindowId" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uLabeledBy">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uEnabled">
+            <ProcessValue datatype="text" value="True" />
+          </attribute>
+          <attribute name="uAcceleratorKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uAccessKey">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uHasKeyboardFocus">
+            <ProcessValue datatype="text" value="False" />
+          </attribute>
+          <attribute name="uHelpText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="uProcessId">
+            <ProcessValue datatype="text" value="6468" />
+          </attribute>
+          <attribute name="puControlType">
+            <ProcessValue datatype="text" value="Pane" />
+          </attribute>
+          <attribute name="puLocalizedControlType">
+            <ProcessValue datatype="text" value="pane" />
+          </attribute>
+          <attribute name="puClassName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="puName">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="puAutomationId">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>Win32Launch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Users\icfai\AppData\Roaming\Zoom\bin\Zoom.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>WorkingDirectory</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>NonInvasive</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+        <parameter>
+          <name>Options</name>
+          <value>
+          </value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="67b3e2c6-d6de-4a95-be6e-77133d923241" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="c14ab9b2-1477-4507-af33-0534417487e9" type="Normal" published="True">
+    <name>Launch</name>
+    <view>
+      <camerax>113</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="40d0234b-ed5b-4b19-9b81-2eb1a43c4190" type="Normal" published="True">
+    <name>Terminate</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="19cdd572-2c9b-4e16-92ba-bba03f7020a4" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>0c5b99f5-620d-4bf3-a42a-5c35677b3396</onsuccess>
+  </stage>
+  <stage stageid="0c5b99f5-620d-4bf3-a42a-5c35677b3396" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="1c4c0dbf-3774-4264-b13c-1110eae95665" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="8b0bbe6a-0236-470b-94c6-59455adf79db" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>67b3e2c6-d6de-4a95-be6e-77133d923241</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="4be34034-0e08-47be-8c93-3aeb521d6900" name="Start" type="Start">
+    <subsheetid>67b3e2c6-d6de-4a95-be6e-77133d923241</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>db630bc4-96b6-47b0-a95e-d8072b98b9ae</onsuccess>
+  </stage>
+  <stage stageid="db630bc4-96b6-47b0-a95e-d8072b98b9ae" name="End" type="End">
+    <subsheetid>67b3e2c6-d6de-4a95-be6e-77133d923241</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="4e66649f-622a-4a6b-b1aa-7cc0cb0ea3d4" name="Launch" type="SubSheetInfo">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="5ea018d3-5c3c-45db-98ff-1f695859e1de" name="Start" type="Start">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>113e79b9-5b85-4531-a45d-8217c5a98703</onsuccess>
+  </stage>
+  <stage stageid="5bbafd23-3d96-457f-8a63-2a8d6882024e" name="End" type="End">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="345" y="30" />
+  </stage>
+  <stage stageid="30893858-fe1c-4d75-ad4d-14091b7ba54a" name="" type="Note">
+    <subsheetid>67b3e2c6-d6de-4a95-be6e-77133d923241</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="fcf918da-40c0-41c2-8f64-3a23899119b8" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="113e79b9-5b85-4531-a45d-8217c5a98703" name="Launch" type="Navigate">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="15" y="-60" />
+    <onsuccess>8c3d63cb-0bed-4f12-a42a-0d190bf9c099</onsuccess>
+    <step>
+      <element id="9dc0b478-4ff2-475d-a58c-01665e1d9e33" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>WorkingDirectory</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>NonInvasive</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>Options</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="f2fd2461-3a27-4d5a-acb6-7d632df2ee11" name="Time Out1" type="WaitEnd">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="90" y="60" w="30" h="30" />
+    <onsuccess>68f77afa-6b8a-4fa4-8771-e17fea869d65</onsuccess>
+    <groupid>35d43cfd-3e57-4f17-97d3-b7c1d02ecf2c</groupid>
+  </stage>
+  <stage stageid="8c3d63cb-0bed-4f12-a42a-0d190bf9c099" name="Wait1" type="WaitStart">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="90" y="-60" w="30" h="30" />
+    <groupid>35d43cfd-3e57-4f17-97d3-b7c1d02ecf2c</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Join the meeting button Check Exists</name>
+        <distance>60</distance>
+        <ontrue>70369cc2-b60e-49d6-ab3a-dbf8d9cefe96</ontrue>
+        <element id="9481d522-c880-4b00-a5cc-4eff7ffe0999" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>10</timeout>
+  </stage>
+  <stage stageid="70369cc2-b60e-49d6-ab3a-dbf8d9cefe96" name="Click on Join the meeting button" type="Navigate">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="210" y="0" />
+    <onsuccess>63b17661-e9e5-46f8-a94a-25ae6b6e57cc</onsuccess>
+    <step>
+      <element id="9481d522-c880-4b00-a5cc-4eff7ffe0999" />
+      <action>
+        <id>UIAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="230b8e37-2570-42d7-90df-94cc52298ae6" name="Terminate" type="SubSheetInfo">
+    <subsheetid>40d0234b-ed5b-4b19-9b81-2eb1a43c4190</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="3d9ebe05-4500-4f4c-b101-85254f4895a3" name="Start" type="Start">
+    <subsheetid>40d0234b-ed5b-4b19-9b81-2eb1a43c4190</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>898c9483-5924-43bb-839d-68d988af9056</onsuccess>
+  </stage>
+  <stage stageid="d4f997ce-537e-4f59-b8fc-47d1e390e177" name="End" type="End">
+    <subsheetid>40d0234b-ed5b-4b19-9b81-2eb1a43c4190</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="68f77afa-6b8a-4fa4-8771-e17fea869d65" name="Terminate" type="SubSheet">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="15" y="60" />
+    <onsuccess>113e79b9-5b85-4531-a45d-8217c5a98703</onsuccess>
+    <processid>40d0234b-ed5b-4b19-9b81-2eb1a43c4190</processid>
+  </stage>
+  <stage stageid="898c9483-5924-43bb-839d-68d988af9056" name="Terminate" type="Navigate">
+    <subsheetid>40d0234b-ed5b-4b19-9b81-2eb1a43c4190</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>d4f997ce-537e-4f59-b8fc-47d1e390e177</onsuccess>
+    <step>
+      <element id="9dc0b478-4ff2-475d-a58c-01665e1d9e33" />
+      <action>
+        <id>Terminate</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="4c29d960-004d-489d-b093-8693c1c3654d" name="Time Out2" type="WaitEnd">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="270" y="30" w="30" h="30" />
+    <onsuccess>5bbafd23-3d96-457f-8a63-2a8d6882024e</onsuccess>
+    <groupid>6d4f9baf-4ab8-4a80-b92c-28b2f4beadcb</groupid>
+  </stage>
+  <stage stageid="63b17661-e9e5-46f8-a94a-25ae6b6e57cc" name="Wait2" type="WaitStart">
+    <subsheetid>c14ab9b2-1477-4507-af33-0534417487e9</subsheetid>
+    <loginhibit />
+    <display x="270" y="0" w="30" h="30" />
+    <groupid>6d4f9baf-4ab8-4a80-b92c-28b2f4beadcb</groupid>
+    <choices />
+    <timeout>5</timeout>
+  </stage>
+</process>
